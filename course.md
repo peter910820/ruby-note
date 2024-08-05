@@ -36,3 +36,16 @@ else
 end
 # medium
 ```
+若if只有一行可以用以下特殊寫法:
+
+```ruby
+foo = 100
+puts "Hello" if foo == 100 # Hello
+```
+
+### 三元運算子
+
+```ruby
+foo = "Hello"
+puts (foo == "Hello")? "World!": "ERROR" # World!
+```
